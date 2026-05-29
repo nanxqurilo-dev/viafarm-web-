@@ -4,6 +4,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -38,7 +39,9 @@ export default function Footer() {
 
           <ul className="mt-8 space-y-4 text-md">
             <li className="hover:text-[#9ad35d] cursor-pointer">
-              Home
+                <Link href="/" className="hover:text-green-700">
+            Home
+          </Link>
             </li>
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
@@ -50,8 +53,9 @@ export default function Footer() {
             </li>
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
-              Contact
-            </li>
+ <Link href="/contact" className="hover:text-green-700">
+            Contact
+          </Link>            </li>
           </ul>
         </div>
 
@@ -63,8 +67,16 @@ export default function Footer() {
 
           <ul className="mt-8 space-y-4 text-md">
             <li className="hover:text-[#9ad35d] cursor-pointer">
-              Privacy Policy
+
+
+<Link href="/privacy-policy" className="hover:text-green-700">
+            Privacy Policy
+          </Link>
+
+
             </li>
+
+             
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
               Terms & Condition
