@@ -24,6 +24,7 @@
 
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -48,17 +49,17 @@ export default function Header() {
       {/* NAVBAR */}
       <nav>
         <div className="flex gap-6 text-black font-medium">
-          <a href="/" className="hover:text-green-700">
+          <Link href="/" className="hover:text-green-700">
             Home
-          </a>
+          </Link>
 
-          <a href="/contact" className="hover:text-green-700">
+          <Link href="/contact" className="hover:text-green-700">
             Contact
-          </a>
+          </Link>
 
-          <a href="#" className="hover:text-green-700">
+          <Link href="/privacy-policy" className="hover:text-green-700">
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </nav>
 
