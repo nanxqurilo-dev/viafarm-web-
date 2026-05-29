@@ -38,6 +38,16 @@ const privacyPoints = [
   },
 ];
 
+
+const currentDate = new Date().toLocaleDateString("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});
+
+
+
+
 export default function PrivacyPolicy() {
   return (
     <>
@@ -56,9 +66,17 @@ export default function PrivacyPolicy() {
                 personal information and being transparent about how we use it.
               </p>
 
-              <div className="inline-flex items-center gap-2 border border-green-500 text-green-600 bg-white rounded-lg px-4 py-2 mt-6 text-sm font-medium">
+              {/* <div className="inline-flex items-center gap-2 border border-green-500 text-green-600 bg-white rounded-lg px-4 py-2 mt-6 text-sm font-medium">
                 📅 Last Updated May 14, 2026
-              </div>
+              </div> */}
+
+
+
+<div className="inline-flex items-center gap-2 border border-green-500 text-green-600 bg-white rounded-lg px-4 py-2 mt-6 text-sm font-medium">
+  📅 Last Updated {currentDate}
+</div>
+
+              
             </div>
 
             <div className="flex justify-end">
