@@ -2,12 +2,11 @@ import {
   Store,
   ShoppingBasket,
   Truck,
-  ArrowRight,
 } from "lucide-react";
 
 export default function HowItWorks() {
   return (
-    <section className="bg-[#f5f8ed] py-16 px-10">
+    <section id="how-it-works" className="bg-[#f5f8ed] px-5 py-14 sm:px-8 sm:py-16 lg:px-12">
 
       {/* TOP TEXT */}
       <div className="text-center">
@@ -15,16 +14,16 @@ export default function HowItWorks() {
           HOW IT WORKS
         </p>
 
-        <h2 className="text-4xl font-bold text-black mt-4">
+        <h2 className="mt-4 text-3xl font-bold text-black sm:text-4xl">
           Simple Steps To Get Fresh Produce
         </h2>
       </div>
 
       {/* STEPS */}
-      <div className="flex items-center justify-center gap-10 mt-15">
+      <div className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-3 md:gap-6 lg:gap-10">
 
         {/* STEP 1 */}
-        <div className="flex items-center gap-5 relative">
+        <div className="relative flex items-center gap-4 sm:gap-5">
 
           {/* NUMBER */}
           <div className="absolute -top-2 left-0 w-7 h-7 rounded-full bg-[#5b9e1b] text-white text-sm flex items-center justify-center font-bold">
@@ -38,7 +37,7 @@ export default function HowItWorks() {
 
           {/* TEXT */}
           <div>
-            <h3 className="text-2xl font-bold text-black">
+            <h3 className="text-xl font-bold text-black lg:text-2xl">
               For Vendors
             </h3>
 
@@ -48,11 +47,8 @@ export default function HowItWorks() {
           </div>
         </div>
 
-        {/* ARROW */}
-        <ArrowRight className="text-[#5b9e1b] w-8 h-8" />
-
         {/* STEP 2 */}
-        <div className="flex items-center gap-5 relative">
+        <div className="relative flex items-center gap-4 sm:gap-5">
 
           <div className="absolute -top-2 left-0 w-7 h-7 rounded-full bg-[#5b9e1b] text-white text-sm flex items-center justify-center font-bold">
             2
@@ -63,7 +59,7 @@ export default function HowItWorks() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-black">
+            <h3 className="text-xl font-bold text-black lg:text-2xl">
               Fresh Produce
             </h3>
 
@@ -73,11 +69,8 @@ export default function HowItWorks() {
           </div>
         </div>
 
-        {/* ARROW */}
-        <ArrowRight className="text-[#5b9e1b] w-8 h-8" />
-
         {/* STEP 3 */}
-        <div className="flex items-center gap-5 relative">
+        <div className="relative flex items-center gap-4 sm:gap-5">
 
           <div className="absolute -top-2 left-0 w-7 h-7 rounded-full bg-[#5b9e1b] text-white text-sm flex items-center justify-center font-bold">
             3
@@ -88,7 +81,7 @@ export default function HowItWorks() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-black">
+            <h3 className="text-xl font-bold text-black lg:text-2xl">
               For Customers
             </h3>
 

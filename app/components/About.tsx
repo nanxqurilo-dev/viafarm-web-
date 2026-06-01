@@ -2,12 +2,12 @@
 
 export default function About() {
   return (
-    <section className="py-20 px-10 text-center bg-white">
+    <section id="about" className="bg-white px-5 py-14 text-center sm:px-8 sm:py-20">
       <p className="text-green-600 font-semibold">
         ABOUT VIAFARMA
       </p>
 
-      <h2 className="text-4xl font-bold text-black mt-4">
+      <h2 className="mt-4 text-3xl font-bold text-black sm:text-4xl">
         Connecting Vendors With Customers
       </h2>
 

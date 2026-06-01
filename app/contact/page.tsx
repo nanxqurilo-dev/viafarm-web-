@@ -12,7 +12,7 @@ export default function ContactPage() {
         
 
       {/* HERO SECTION */}
-      <section className="relative h-[350px]">
+      <section className="relative h-48 sm:h-64 lg:h-[350px]">
 
         <Image
           src="/fruits-banner.png"
@@ -32,51 +32,51 @@ export default function ContactPage() {
       </section>
 
       {/* CONTACT BOX */}
-      <section className="px-10 py-20">
+      <section className="px-5 py-12 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
 
-        <div className="max-w-5xl mx-auto border border-[#9ad35d] rounded-2xl bg-[#f8fbf2] p-8">
+        <div className="mx-auto max-w-5xl rounded-2xl border border-[#9ad35d] bg-[#f8fbf2] p-5 sm:p-8">
 
-          <div className="grid grid-cols-2 items-center gap-10">
+          <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-10">
 
             {/* LEFT */}
-            <div className="space-y-12">
+            <div className="space-y-7 sm:space-y-10 lg:space-y-12">
 
               {/* PHONE */}
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4 sm:gap-6">
 
-                <Phone className="text-[#5b9e1b] w-8 h-8" />
+                <Phone className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
-                <p className="text-3xl text-black font-medium">
+                <p className="break-all text-lg font-medium text-black sm:text-2xl lg:text-3xl">
                   +91 2232435345
                 </p>
               </div>
 
               {/* EMAIL */}
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4 sm:gap-6">
 
-                <Mail className="text-[#5b9e1b] w-8 h-8" />
+                <Mail className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
-                <p className="text-3xl text-black font-medium">
+                <p className="break-all text-lg font-medium text-black sm:text-2xl lg:text-3xl">
                   xyz@gmail.com
                 </p>
               </div>
 
               {/* LOCATION */}
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4 sm:gap-6">
 
-                <MapPin className="text-[#5b9e1b] w-8 h-8" />
+                <MapPin className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
-                <p className="text-3xl text-black font-medium">
+                <p className="text-lg font-medium text-black sm:text-2xl lg:text-3xl">
                   xyz
                 </p>
               </div>
 
               {/* TIME */}
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4 sm:gap-6">
 
-                <Clock className="text-[#5b9e1b] w-8 h-8" />
+                <Clock className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
-                <p className="text-3xl text-black font-medium">
+                <p className="text-lg font-medium text-black sm:text-2xl lg:text-3xl">
                   xyz
                 </p>
               </div>
@@ -84,13 +84,14 @@ export default function ContactPage() {
             </div>
 
             {/* RIGHT IMAGE */}
-            <div className="flex justify-center">
+            <div className="flex justify-center md:justify-end">
 
               <Image
                 src="/fruit-basket.png"
                 alt="Fruits"
                 width={500}
                 height={400}
+                className="h-auto w-full max-w-sm lg:max-w-md"
               />
 
             </div>

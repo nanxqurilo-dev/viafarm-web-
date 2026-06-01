@@ -5,7 +5,7 @@ import {
 
 export default function Merits() {
   return (
-    <section className="bg-white py-20 px-10">
+    <section className="bg-white px-5 py-14 sm:px-8 sm:py-20 lg:px-12">
 
       {/* TOP TEXT */}
       <div className="text-center">
@@ -14,13 +14,13 @@ export default function Merits() {
           WHY CHOOSE VIAFERMA
         </p>
 
-        <h2 className="text-5xl font-bold text-black mt-4">
+        <h2 className="mt-4 text-3xl font-bold text-black sm:text-5xl">
           Benefits For Everyone
         </h2>
       </div>
 
       {/* CARDS */}
-      <div className="grid grid-cols-4 gap-8 mt-16">
+      <div className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-8">
 
         {/* CARD 1 */}
         <div className="border border-[#c9d8a8] rounded-xl py-10 px-6 text-center shadow-sm">

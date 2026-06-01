@@ -38,86 +38,70 @@ const privacyPoints = [
   },
 ];
 
-
 const currentDate = new Date().toLocaleDateString("en-US", {
   month: "long",
   day: "numeric",
   year: "numeric",
 });
 
-
-
-
 export default function PrivacyPolicy() {
   return (
     <>
-
-      {/* Hero Section */}
-      <section className="bg-[#F3F8ED] py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
+      <section className="bg-[#F3F8ED] py-12 sm:py-16">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-10">
             <div>
-              <h1 className="text-5xl font-bold text-black mb-5">
+              <h1 className="mb-5 text-4xl font-bold text-black sm:text-5xl">
                 Privacy Policy
               </h1>
 
-              <p className="text-gray-600 leading-7 max-w-lg">
+              <p className="max-w-lg leading-7 text-gray-600">
                 We value your privacy and are committed to protecting your
                 personal information and being transparent about how we use it.
               </p>
 
-              {/* <div className="inline-flex items-center gap-2 border border-green-500 text-green-600 bg-white rounded-lg px-4 py-2 mt-6 text-sm font-medium">
-                📅 Last Updated May 14, 2026
-              </div> */}
-
-
-
-<div className="inline-flex items-center gap-2 border border-green-500 text-green-600 bg-white rounded-lg px-4 py-2 mt-6 text-sm font-medium">
-  📅 Last Updated {currentDate}
-</div>
-
-              
+              <div className="mt-6 inline-flex items-center rounded-lg border border-green-500 bg-white px-4 py-2 text-sm font-medium text-green-600">
+                Last Updated {currentDate}
+              </div>
             </div>
 
-            <div className="flex justify-end">
+            <div className="flex justify-center md:justify-end">
               <Image
                 src="/vegetable.png"
                 alt="Vegetables"
                 width={600}
                 height={400}
-                className="object-contain"
+                className="h-auto w-full max-w-sm object-contain md:max-w-lg"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Privacy Content */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="border border-green-300 rounded-2xl p-8 md:p-12">
-            {privacyPoints.map((item, index) => (
+      <section className="bg-white py-12 sm:py-16">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <div className="rounded-2xl border border-green-300 p-5 sm:p-8 md:p-12">
+            {privacyPoints.map((item) => (
               <div
-                key={index}
-                className="flex gap-5 mb-10 last:mb-0"
+                key={item.title}
+                className="mb-8 flex gap-3 last:mb-0 sm:mb-10 sm:gap-5"
               >
-                <div className="text-2xl">👉</div>
+                <div className="text-xl text-green-600 sm:text-2xl">
+                  &bull;
+                </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold text-black mb-3">
+                  <h3 className="mb-3 text-xl font-semibold text-black">
                     {item.title}
                   </h3>
 
-                  <p className="text-gray-600 leading-7">
-                    {item.description}
-                  </p>
+                  <p className="leading-7 text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
-
     </>
   );
 }

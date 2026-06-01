@@ -7,7 +7,8 @@ export default function Hero() {
 
   
   return (
-    <section className="grid grid-cols-2 items-center px-25 py-10 bg-green-50">
+    <section className="bg-green-50">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-5 py-12 sm:px-8 md:grid-cols-2 md:py-14 lg:px-12">
 
       {/* LEFT */}
       <div className="max-w-lg">
@@ -16,34 +17,34 @@ export default function Hero() {
           WELCOME TO VIAFARMA
         </p>
 
-        <h1 className="text-5xl font-bold mt-4 text-black">
+        <h1 className="mt-4 text-4xl font-bold leading-tight text-black sm:text-5xl">
           Fresh Produce From Trusted <span className="text-green-600">Local Vendors</span   >
         </h1>
 
         <p className="mt-6 text-gray-600">
           VieFrame is a digital marketplace which connects local vendors with consumers to buy and sell fresh fruits. Vegetables and related products.        </p>
 
-        <div className="flex gap-4 mt-6">
-          <button className="bg-green-600 text-white px-6 py-3 rounded-lg">
-            <Link href="/contact" className="hover:text-green-700">
+        <div className="mt-6 flex flex-wrap gap-4">
+            <Link href="/contact" className="rounded-lg bg-green-600 px-6 py-3 text-white transition hover:bg-green-700">
               Contact
-            </Link>          </button>
+            </Link>
 
-          <button className="border border-green-600 px-6 py-3 text-green-600 rounded-lg">
-            <Link href="/privacy-policy" className="hover:text-green-700">
+            <Link href="/privacy-policy" className="rounded-lg border border-green-600 px-6 py-3 text-green-600 transition hover:bg-green-600 hover:text-white">
               Privacy Policy
-            </Link>          </button>
+            </Link>
         </div>
       </div>
 
       {/* RIGHT */}
-      <div className="flex justify-end mt-6 ">
+      <div className="flex justify-center md:justify-end">
         <Image
           src="/vegetable.png"
           alt="Vegetables"
           width={600}
           height={900}
+          className="h-auto w-full max-w-sm md:max-w-md lg:max-w-xl"
         />
+      </div>
       </div>
     </section>
   );

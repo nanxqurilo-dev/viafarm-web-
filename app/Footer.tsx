@@ -8,15 +8,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#004b1f] text-white px-12 py-16">
+    <footer className="bg-[#004b1f] px-5 py-12 text-white sm:px-8 lg:px-12 lg:py-16">
 
-      <div className="grid grid-cols-4 gap-16">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-12 xl:gap-16">
 
         {/* LOGO SECTION */}
         <div>
 
           {/* LOGO */}
-          <div className="w-28 h-28 bg-white flex items-center justify-center">
+          <div className="flex h-24 w-24 items-center justify-center bg-white sm:h-28 sm:w-28">
             <Image
               src="/viefarma.png"
               alt="Logo"
@@ -26,18 +26,18 @@ export default function Footer() {
           </div>
 
           {/* TEXT */}
-          <p className="mt-6 text-md leading-9 tracking-widest max-w-[260px]">
+          <p className="mt-6 max-w-[260px] text-sm leading-7 tracking-widest sm:text-base sm:leading-9">
             Connecting local vendors with everyday customer
           </p>
         </div>
 
         {/* QUICK LINKS */}
         <div>
-          <h3 className="text-2xl font-bold uppercase">
+          <h3 className="text-xl font-bold uppercase sm:text-2xl">
             Quick Links
           </h3>
 
-          <ul className="mt-8 space-y-4 text-md">
+          <ul className="mt-6 space-y-4 text-sm sm:mt-8 sm:text-base">
             <li className="hover:text-[#9ad35d] cursor-pointer">
                 <Link href="/" className="hover:text-green-700">
             Home
@@ -45,11 +45,11 @@ export default function Footer() {
             </li>
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
-              About
+              <Link href="/#about">About</Link>
             </li>
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
-              How it works
+              <Link href="/#how-it-works">How it works</Link>
             </li>
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
@@ -61,11 +61,11 @@ export default function Footer() {
 
         {/* LEGAL */}
         <div>
-          <h3 className="text-2xl font-bold uppercase">
+          <h3 className="text-xl font-bold uppercase sm:text-2xl">
             Legal
           </h3>
 
-          <ul className="mt-8 space-y-4 text-md">
+          <ul className="mt-6 space-y-4 text-sm sm:mt-8 sm:text-base">
             <li className="hover:text-[#9ad35d] cursor-pointer">
 
 
@@ -94,30 +94,30 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div>
-          <h3 className="text-2xl font-bold uppercase">
+          <h3 className="text-xl font-bold uppercase sm:text-2xl">
             Contact
           </h3>
 
-          <div className="mt-8 space-y-4 text-md">
+          <div className="mt-6 space-y-4 text-sm sm:mt-8 sm:text-base">
             <p>xyz@gmail.com</p>
             <p>+91 2344555555</p>
           </div>
 
           {/* SOCIAL ICONS */}
-       <div className="flex items-center gap-5 mt-8">
+       <div className="mt-8 flex items-center gap-4 sm:gap-5">
 
   {/* FACEBOOK */}
-  <div className="w-14 h-14 rounded-full border-2 border-white flex items-center justify-center cursor-pointer hover:bg-white hover:text-[#004b1f] transition">
+  <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
     <FaFacebookF size={22} />
   </div>
 
   {/* INSTAGRAM */}
-  <div className="w-14 h-14 rounded-full border-2 border-white flex items-center justify-center cursor-pointer hover:bg-white hover:text-[#004b1f] transition">
+  <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
     <FaInstagram size={22} />
   </div>
 
   {/* LINKEDIN */}
-  <div className="w-14 h-14 rounded-full border-2 border-white flex items-center justify-center cursor-pointer hover:bg-white hover:text-[#004b1f] transition">
+  <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
     <FaLinkedinIn size={22} />
   </div>
 
