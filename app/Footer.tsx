@@ -1,8 +1,3 @@
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -136,6 +131,10 @@ export default function Footer() {
           </div> */}
         </div>
 
+      </div>
+
+      <div className="mx-auto mt-10 max-w-7xl border-t border-white/20 pt-6 text-center text-sm text-white/80">
+        Copyright &copy; 2026 ViaFarma. All rights reserved.
       </div>
     </footer>
   );

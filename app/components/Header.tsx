@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -13,6 +14,18 @@ const navLinks = [
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const getLinkClassName = (href: string, isMobile = false) => {
+    const isActive = pathname === href;
+    const baseClassName = isMobile
+      ? "rounded-md px-2 py-2 hover:bg-green-50 hover:text-green-700"
+      : "hover:text-green-700";
+
+    return isActive
+      ? `${baseClassName} font-semibold text-green-700`
+      : baseClassName;
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
@@ -50,7 +63,8 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="hover:text-green-700"
+                  aria-current={pathname === link.href ? "page" : undefined}
+                  className={getLinkClassName(link.href)}
                 >
                   {link.label}
                 </Link>
@@ -69,7 +83,8 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="rounded-md px-2 py-2 hover:bg-green-50 hover:text-green-700"
+                aria-current={pathname === link.href ? "page" : undefined}
+                className={getLinkClassName(link.href, true)}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
