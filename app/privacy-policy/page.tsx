@@ -325,8 +325,8 @@ export default function PrivacyPolicy() {
                 </p>
 
                 <p className="mt-2 font-semibold text-green-700">
-                  privacy@viafarm.com
-                </p>
+                 kawshaldas@gmail.com  
+                 </p>
 
                 <p>
                   We will respond to your request within 30 days.
