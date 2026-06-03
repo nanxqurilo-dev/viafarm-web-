@@ -39,28 +39,43 @@ export default function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm sm:mt-8 sm:text-base">
             <li className="hover:text-[#9ad35d] cursor-pointer">
-                <Link href="/" className="hover:text-green-700">
-            Home
-          </Link>
+              <Link href="/" className="hover:text-green-700">
+                Home
+              </Link>
             </li>
 
-            <li className="hover:text-[#9ad35d] cursor-pointer">
+            {/* <li className="hover:text-[#9ad35d] cursor-pointer">
               <Link href="/#about">About</Link>
             </li>
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
               <Link href="/#how-it-works">How it works</Link>
-            </li>
+            </li> */}
 
             <li className="hover:text-[#9ad35d] cursor-pointer">
- <Link href="/contact" className="hover:text-green-700">
-            Contact
-          </Link>            </li>
+              <Link href="/contact" className="hover:text-green-700">
+                Contact
+              </Link>            </li>
+
+
+
+            <li className="hover:text-[#9ad35d] cursor-pointer">
+
+
+              <Link href="/privacy-policy" className="hover:text-green-700">
+                Privacy Policy
+              </Link>
+
+
+            </li>
+
+
+
           </ul>
         </div>
 
         {/* LEGAL */}
-        <div>
+        {/* <div>
           <h3 className="text-xl font-bold uppercase sm:text-2xl">
             Legal
           </h3>
@@ -90,7 +105,7 @@ export default function Footer() {
               Cookie Policy
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* CONTACT */}
         <div>
@@ -104,24 +119,21 @@ export default function Footer() {
           </div>
 
           {/* SOCIAL ICONS */}
-       <div className="mt-8 flex items-center gap-4 sm:gap-5">
+          {/* <div className="mt-8 flex items-center gap-4 sm:gap-5">
 
-  {/* FACEBOOK */}
-  <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
-    <FaFacebookF size={22} />
-  </div>
+            <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
+              <FaFacebookF size={22} />
+            </div>
 
-  {/* INSTAGRAM */}
-  <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
-    <FaInstagram size={22} />
-  </div>
+            <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
+              <FaInstagram size={22} />
+            </div>
 
-  {/* LINKEDIN */}
-  <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
-    <FaLinkedinIn size={22} />
-  </div>
+            <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-white transition hover:bg-white hover:text-[#004b1f] sm:h-14 sm:w-14">
+              <FaLinkedinIn size={22} />
+            </div>
 
-</div>
+          </div> */}
         </div>
 
       </div>
