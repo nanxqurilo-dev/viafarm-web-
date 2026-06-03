@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Sprout } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -36,6 +37,16 @@ export default function Footer() {
             <li className="hover:text-[#9ad35d] cursor-pointer">
               <Link href="/" className="hover:text-green-700">
                 Home
+              </Link>
+            </li>
+
+            <li className="hover:text-[#9ad35d] cursor-pointer">
+              <Link
+                href="/about"
+                className="inline-flex items-center gap-2 hover:text-[#9ad35d]"
+              >
+                {/* <Sprout size={16} /> */}
+                About
               </Link>
             </li>
 
