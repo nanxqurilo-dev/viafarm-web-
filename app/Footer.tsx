@@ -114,8 +114,8 @@ export default function Footer() {
           </h3>
 
           <div className="mt-6 space-y-4 text-sm sm:mt-8 sm:text-base">
-            <p>xyz@gmail.com</p>
-            <p>+91 2344555555</p>
+            <p>kawshaldas@gmail.com</p>
+            <p>+91 9895776556 </p>
           </div>
 
           {/* SOCIAL ICONS */}
