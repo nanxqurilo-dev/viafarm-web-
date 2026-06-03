@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Homepageimage from "../../public/vegetable-removebg-preview (1).webp"
 
 export default function Hero() {
 
@@ -38,11 +39,11 @@ export default function Hero() {
       {/* RIGHT */}
       <div className="flex justify-center md:justify-end">
         <Image
-          src="/vegetable.png"
+          src={Homepageimage}
           alt="Vegetables"
           width={600}
           height={900}
-          className="h-auto w-full max-w-sm md:max-w-md lg:max-w-xl"
+          className="h-auto w-full  max-w-sm md:max-w-md lg:max-w-xl"
         />
       </div>
       </div>

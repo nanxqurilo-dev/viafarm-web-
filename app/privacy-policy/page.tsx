@@ -117,6 +117,8 @@
 
 
 import Image from "next/image";
+import Homepageimage from "../../public/vegetable-removebg-preview (1).webp"
+
 
 const currentDate = new Date().toLocaleDateString("en-US", {
   month: "long",
@@ -150,7 +152,7 @@ export default function PrivacyPolicy() {
 
             <div className="flex justify-center md:justify-end">
               <Image
-                src="/vegetable.png"
+                src={Homepageimage}
                 alt="Vegetables"
                 width={600}
                 height={400}
