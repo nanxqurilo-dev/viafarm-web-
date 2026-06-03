@@ -47,7 +47,7 @@ export default function ContactPage() {
                 <Phone className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
                 <p className="break-all text-lg font-medium text-black sm:text-2xl lg:text-3xl">
-                  +91 2232435345
+                  +91 9895776556
                 </p>
               </div>
 
@@ -57,7 +57,7 @@ export default function ContactPage() {
                 <Mail className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
                 <p className="break-all text-lg font-medium text-black sm:text-2xl lg:text-3xl">
-                  xyz@gmail.com
+                  kawshaldas@gmail.com
                 </p>
               </div>
 
