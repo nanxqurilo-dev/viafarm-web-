@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 text-gray-600">
-          VieFarm is a digital marketplace which connects local vendors with consumers to buy and sell fresh fruits. Vegetables and related products.        </p>
+          ViaFarm is a digital marketplace which connects local vendors with consumers to buy and sell fresh fruits. Vegetables and related products.        </p>
 
         <div className="mt-6 flex flex-wrap gap-4">
             <Link href="/contact" className="rounded-lg bg-green-600 px-6 py-3 text-white transition hover:bg-green-700">
