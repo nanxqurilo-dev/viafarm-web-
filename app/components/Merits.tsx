@@ -11,7 +11,7 @@ export default function Merits() {
       <div className="text-center">
 
         <p className="text-[#5b9e1b] font-semibold uppercase tracking-wider text-sm">
-          WHY CHOOSE VIAFERMA
+          WHY CHOOSE VIAFARM
         </p>
 
         <h2 className="mt-4 text-3xl font-bold text-black sm:text-5xl">
