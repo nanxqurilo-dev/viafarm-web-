@@ -42,8 +42,7 @@ export default function HowItWorks() {
             </h3>
 
             <p className="text-gray-500 mt-2 leading-6 max-w-[220px]">
-              List your products, manage inventory and grow your business with ease.
-            </p>
+Explore a wide range of fresh fruits, vegetables and farm products from local vendors.            </p>
           </div>
         </div>
 
@@ -64,9 +63,7 @@ export default function HowItWorks() {
             </h3>
 
             <p className="text-gray-500 mt-2 leading-6 max-w-[220px]">
-              Wide range of fresh fruits, vegetables and related items every day.
-            </p>
-          </div>
+Add your favorite products to the cart and complete your order securely online.</p>          </div>
         </div>
 
         {/* STEP 3 */}
@@ -86,9 +83,7 @@ export default function HowItWorks() {
             </h3>
 
             <p className="text-gray-500 mt-2 leading-6 max-w-[220px]">
-              Browse, Compare and buy fresh products directly from local vendors.
-            </p>
-          </div>
+Receive fresh and quality produce delivered directly to your doorstep.</p>          </div>
         </div>
 
       </div>

@@ -24,8 +24,7 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-500 mt-2 leading-7">
-              List your products, manage inventory and grow your business with ease.
-            </p>
+Expand your business by selling fresh produce online and reaching more customers.            </p>
           </div>
         </div>
 
@@ -41,7 +40,8 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-500 mt-2 leading-7">
-              Wide range of fresh fruits, vegetables and related items every day.
+Discover handpicked fruits, vegetables and farm products sourced from trusted growers.
+
             </p>
           </div>
         </div>
@@ -58,8 +58,7 @@ export default function Features() {
             </h3>
 
             <p className="text-gray-500 mt-2 leading-7">
-              Browse, compare and buy fresh products directly from local vendors.
-            </p>
+Order fresh produce anytime and enjoy a simple, hassle-free shopping experience.            </p>
           </div>
         </div>
 

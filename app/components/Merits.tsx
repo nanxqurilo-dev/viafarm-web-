@@ -36,8 +36,7 @@ export default function Merits() {
           </h3>
 
           <p className="text-gray-500 mt-4 leading-6">
-            List your products, manage inventory and grow your business with ease.
-          </p>
+Enjoy fresh fruits, vegetables, and daily essentials sourced directly from trusted local farms.          </p>
         </div>
 
         {/* CARD 2 */}
@@ -52,8 +51,7 @@ export default function Merits() {
           </h3>
 
           <p className="text-gray-500 mt-4 leading-6">
-            List your products, manage inventory and grow your business with ease.
-          </p>
+Help local farmers grow their business by purchasing directly from nearby producers.          </p>
         </div>
 
         {/* CARD 3 */}
@@ -68,8 +66,7 @@ export default function Merits() {
           </h3>
 
           <p className="text-gray-500 mt-4 leading-6">
-            List your products, manage inventory and grow your business with ease.
-          </p>
+Get quality produce at competitive prices with fewer middlemen involved.          </p>
         </div>
 
         {/* CARD 4 */}
@@ -84,8 +81,7 @@ export default function Merits() {
           </h3>
 
           <p className="text-gray-500 mt-4 leading-6">
-            List your products, manage inventory and grow your business with ease.
-          </p>
+Receive fresh products quickly and conveniently at your doorstep.          </p>
         </div>
 
       </div>
