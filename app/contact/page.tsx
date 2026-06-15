@@ -67,7 +67,7 @@ export default function ContactPage() {
                 <MapPin className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
                 <p className="text-lg font-medium text-black sm:text-2xl lg:text-3xl">
-                  xyz
+                 Flat No. 087, 180, White Building, Sukalwada , Korgao, Pernem, North Goa, Goa-403512
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export default function ContactPage() {
                 <Clock className="h-6 w-6 shrink-0 text-[#5b9e1b] sm:h-8 sm:w-8" />
 
                 <p className="text-lg font-medium text-black sm:text-2xl lg:text-3xl">
-                  xyz
+                 9am to 6pm
                 </p>
               </div>
 
