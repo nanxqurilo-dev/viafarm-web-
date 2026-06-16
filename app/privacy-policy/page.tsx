@@ -420,7 +420,8 @@ export default function PrivacyPolicy() {
                   <p>Email: kawshaldas@gmail.com</p>
 
                   <p>
-                    Address: [Your physical address if required by law]
+                    Address: Flat No. 087, 180, White Building, Sukalwada , Korgao, Pernem, North Goa, Goa-403512
+
                   </p>
                 </div>
               </div>
